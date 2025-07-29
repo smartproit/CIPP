@@ -3,9 +3,13 @@ rules:
   - base: main
     upstream: KelvinTegelaar:main
     mergeMethod: merge
+    label: "🤖 auto-update"
+    assignees:
+      - smartproit
   - base: dev
     upstream: KelvinTegelaar:dev
     mergeMethod: none
   - base: website
     upstream: KelvinTegelaar:website
     mergeMethod: merge
+    label: "🤖 auto-update"
